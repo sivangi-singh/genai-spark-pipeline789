@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PySpark
+spark-warehouse/
+metastore_db/
+derby.log/
+
+# Project specific - Data files
+data/raw/*.csv
+data/processed/*.csv
+data/raw/*.json
+data/processed/*.json
+data/raw/*.parquet
+data/processed/*.parquet
+
+# Project specific - Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
